@@ -416,6 +416,7 @@ section.song > div.secondVerseTwo >div:nth-child(3) > p
 }
 
 /* css for third verser */
+/* para 1 */
 
 /* para 1 */
 section.song > div.thirdVerse > div:nth-child(1) > p
@@ -665,6 +666,9 @@ section.song > div.thirdVerse > div:nth-child(8) > p  >span
     font-size: 30px;
     font-weight: 500;
 }
+
+/* css for forth verse */
+
 
 /* css for final verse */
 /* para 1 */
