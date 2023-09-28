@@ -529,7 +529,7 @@ section.song > div.thirdVerse > div:nth-child(4) > p
     color: #b59b83;
     font-size: 25px;
     display: flex;
-    line-height: .9;
+    line-height: 1.1;
     flex-direction: column;
 }
 section.song > div.thirdVerse > div:nth-child(4) > p  >span:nth-child(1)
@@ -623,7 +623,7 @@ section.song > div.thirdVerse > div:nth-child(7) > p
     letter-spacing: 1px;
     font-size: 25px;
     display: flex;
-    line-height: .9;
+    line-height: 1.2;
     flex-direction: column;
 }
 section.song > div.thirdVerse > div:nth-child(7) > p  >span:nth-child(1)
