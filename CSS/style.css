@@ -10,7 +10,7 @@ h1,h2,h3,h4,h5,h6
 }
 p,a,li
 {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-family: 'Roboto',sans-serif;
     text-decoration: none;
     margin: 0px;
@@ -66,12 +66,15 @@ section.song > div
 }
 section.song > div >div
 {
-    width: 50%;
+    width: 100%;
 }
 
 section.song > div > div > p
 {
     padding: 10px 5px;
+    margin-left: 20em;
+    width: 50%;
+    margin: 0 auto;
 }
 
 /* css for the first versre of the song */
@@ -81,25 +84,32 @@ section.song > div.firstVerse > div > p
     flex-direction: column;
 }
 /* para 1 */
+section.song > div.firstVerse > div:nth-child(1)
+{
+    background-color: #222222;   
+}
 section.song > div.firstVerse > div:nth-child(1) > p
 {
     font-family: 'Merriweather', serif;
     color: #b5e1f0;
-    background-color: #222222;
 }
 section.song > div.firstVerse > div:nth-child(1) > p  >span
 {
     color: #f4f4f4;
     text-shadow: 0 0 6px rgb(129, 16, 129);
-    font-size: 35px;
-    margin: 0 0 0 7em;
+    font-size: 2em;
+    margin: 0 0 0 5em;
 }
 
 /* para 2 */
+section.song > div.firstVerse > div:nth-child(2)
+{
+
+    background-color: #f5f5d1;
+}
 section.song > div.firstVerse > div:nth-child(2) > p
 {
     font-family: 'Playfair Display', serif;
-    background-color: #f5f5d1;
     color: rgb(250, 73, 103);
     letter-spacing: 2px;
 }
@@ -111,10 +121,13 @@ section.song > div.firstVerse > div:nth-child(2) > p  >span
 }
 
 /* para 3 */
+section.song > div.firstVerse > div:nth-child(3)
+{
+    background-color: #969393;
+}
 section.song > div.firstVerse > div:nth-child(3) > p
 {
     font-family: 'Indie Flower', cursive;
-    background-color: #969393;
     line-height: 1.1;
     letter-spacing: 1px;
     text-shadow: 2px 1px rgba(0, 0, 0,0.2);
@@ -144,10 +157,14 @@ section.song > div.firstVerse > div:nth-child(3) > p  >span:nth-child(3)
 }
 
 /* para 4 */
+section.song > div.firstVerse > div:nth-child(4)
+{
+
+    background-color: #3366cc;
+}
 section.song > div.firstVerse > div:nth-child(4) > p
 {
     font-family: 'Martian Mono', monospace;
-    background-color: #3366cc;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-align: center;
@@ -155,10 +172,14 @@ section.song > div.firstVerse > div:nth-child(4) > p
 }
 
 /* para 5 */
+section.song > div.firstVerse > div:nth-child(5)
+{
+
+    background-color: #fce4ec;
+}
 section.song > div.firstVerse > div:nth-child(5) > p
 {
     font-family: 'Quicksand', sans-serif;
-    background-color: #fce4ec;
     line-height: 1.2;
 }
 section.song > div.firstVerse > div:nth-child(5) > p  >span:nth-child(1)
@@ -195,10 +216,14 @@ section.song > div.firstVerse > div:nth-child(5) > p  >span:nth-child(3)
 }
 
 /* para 6 */
+section.song > div.firstVerse > div:nth-child(6)
+{
+    background: linear-gradient(90deg,#10808f,#e0f7fa);
+    background: linear-gradient(90deg,#0f7f8e,#e0f7fa);
+}
 section.song > div.firstVerse > div:nth-child(6) > p
 {
     font-family: 'Dancing Script', cursive;
-    background: linear-gradient(90deg,#10808f,#e0f7fa);
     font-size: 25px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -234,14 +259,18 @@ section.song > div.firstVerse > div:nth-child(6) > p  >span:nth-child(3)
 }
 
 /* para 7 */
+section.song > div.firstVerse > div:nth-child(7)
+{
+    background-color: #00796b;
+}
 section.song > div.firstVerse > div:nth-child(7) > p
 {
     font-family: 'Rubik Mono One', sans-serif;
-    background-color: #00796b;
     letter-spacing: 1px;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
+    font-size: 1.2em;
 }
 section.song > div.firstVerse > div:nth-child(7) > p > span
 {
@@ -251,10 +280,13 @@ section.song > div.firstVerse > div:nth-child(7) > p > span
 }
 
 /* para 8 */
+section.song > div.firstVerse > div:nth-child(8)
+{
+    background-color: #dff3fc;
+}
 section.song > div.firstVerse > div:nth-child(8) > p
 {
     font-family: 'Josefin', serif;
-    background-color: #dff3fc;
     letter-spacing: 1px;
     line-height: 1;
 }
@@ -297,10 +329,7 @@ section.song > div.secondVerse
 
 section.song > div.secondVerse >div
 {
-    width: 50%;
-    padding: 10px 0;
-    border-top: 1px solid black;
-    
+    padding: 10px 0;    
 }
 section.song > div.secondVerse >div:nth-child(1) > p
 {
@@ -412,17 +441,31 @@ section.song > div.secondVerseTwo >div:nth-child(3) > p
 {
     -webkit-text-fill-color: #f4f4f4;
     -webkit-background-clip: unset;
+    background: none;
     text-shadow: 2px 2px 3px rgb(52 58 53);
+}
+section.song > div.secondVerseTwo >div:nth-child(1) 
+{
+    background: linear-gradient(1800deg, red, yellow);
+}
+section.song > div.secondVerseTwo >div:nth-child(2) 
+{
+    background: linear-gradient(180deg, lightpink, rgb(252, 189, 81));
+}
+section.song > div.secondVerseTwo >div:nth-child(3) 
+{
+    background: linear-gradient(180deg, rgb(0, 123, 255), rgb(122, 7, 150));
 }
 
 /* css for third verser */
 /* para 1 */
-
-/* para 1 */
+section.song > div.thirdVerse > div:nth-child(1) 
+{
+    background-color: #f2e9df;
+}
 section.song > div.thirdVerse > div:nth-child(1) > p
 {
     font-family: 'Playfair Display', serif;
-    background-color: #f2e9df;
     letter-spacing: 1px;
     line-height: 1;
 }
@@ -439,10 +482,13 @@ section.song > div.thirdVerse > div:nth-child(1) > p  >span
 }
 
 /* para 2 */
+section.song > div.thirdVerse > div:nth-child(2) 
+{
+    background-color: #e3e4fa;
+}
 section.song > div.thirdVerse > div:nth-child(2) > p
 {
     font-family: 'Open Sans', serif;
-    background-color: #e3e4fa;
     letter-spacing: 1px;
     color: #6d7fcc;
     font-size: 25px;
@@ -475,10 +521,13 @@ section.song > div.thirdVerse > div:nth-child(2) > p  >span:nth-child(3)
 }
 
 /* para 3 */
+section.song > div.thirdVerse > div:nth-child(3) 
+{
+    background-color: #e1ecf4;
+}
 section.song > div.thirdVerse > div:nth-child(3) > p
 {
     font-family: 'Quicksand', sans-serif;
-    background-color: #e1ecf4;
     letter-spacing: 1px;
     color: #3eb0ef;
     font-size: 25px;
@@ -521,10 +570,13 @@ section.song > div.thirdVerse > div:nth-child(3) > p  >span:nth-child(3) >span
 }
 
 /* para 4 */
+section.song > div.thirdVerse > div:nth-child(4) 
+{
+    background-color: #f5f1ec;
+}
 section.song > div.thirdVerse > div:nth-child(4) > p
 {
     font-family: 'Open Sans', sans-serif;
-    background-color: #f5f1ec;
     letter-spacing: 1px;
     color: #b59b83;
     font-size: 25px;
@@ -552,10 +604,13 @@ section.song > div.thirdVerse > div:nth-child(4) > p  >span > span
 }
 
 /* para 5 */
+section.song > div.thirdVerse > div:nth-child(5) 
+{
+    background-color: #f1fcfa;
+}
 section.song > div.thirdVerse > div:nth-child(5) > p
 {
     font-family: 'Rubik', sans-serif;
-    background-color: #f1fcfa;
     letter-spacing: 1px;
     font-size: 25px;
     display: flex;
@@ -587,10 +642,13 @@ section.song > div.thirdVerse > div:nth-child(5) > p  >span:nth-child(3)
     letter-spacing: 3px;
 }
 /* para 6 */
+section.song > div.thirdVerse > div:nth-child(6) 
+{
+    background-color: #e9f7ef;
+}
 section.song > div.thirdVerse > div:nth-child(6) > p
 {
     font-family: 'Playfair Display', serif;
-    background-color: #e9f7ef;
     letter-spacing: 1px;
     font-size: 25px;
     display: flex;
@@ -616,10 +674,13 @@ section.song > div.thirdVerse > div:nth-child(6) > p  >span:nth-child(2)
 }
 
 /* para 7 */
+section.song > div.thirdVerse > div:nth-child(7) 
+{
+    background-color: #fef5e7;
+}
 section.song > div.thirdVerse > div:nth-child(7) > p
 {
     font-family: 'Indie Flower', cursive;
-    background-color: #fef5e7;
     letter-spacing: 1px;
     font-size: 25px;
     display: flex;
@@ -642,10 +703,13 @@ section.song > div.thirdVerse > div:nth-child(7) > p  >span:nth-child(2)
 }
 
 /* para 8 */
+section.song > div.thirdVerse > div:nth-child(8) 
+{
+    background-color: #ffd9e9;
+}
 section.song > div.thirdVerse > div:nth-child(8) > p
 {
     font-family: 'Playfair Display', serif;
-    background-color: #ffd9e9;
     letter-spacing: 1px;
     font-size: 25px;
     line-height: .9;
@@ -672,10 +736,13 @@ section.song > div.thirdVerse > div:nth-child(8) > p  >span
 
 /* css for final verse */
 /* para 1 */
+section.song > div.finalVerse > div:nth-child(1) 
+{
+    background-color: #fbf7e9;
+}
 section.song > div.finalVerse > div:nth-child(1) > p
 {
     font-family: 'Open Sans', sans-serif;
-    background-color: #fbf7e9;
     letter-spacing: 1px;
     font-size: 25px;
     display: flex;
@@ -705,10 +772,13 @@ section.song > div.finalVerse > div:nth-child(1) > p  >span:nth-child(3)
     font-size: 30px;
 }
 /* para 2 */
+section.song > div.finalVerse > div:nth-child(2) 
+{
+    background-color: #eff7e9;
+}
 section.song > div.finalVerse > div:nth-child(2) > p
 {
     font-family: 'Open Sans', sans-serif;
-    background-color: #eff7e9;
     letter-spacing: 2px;
     font-size: 25px;
     display: flex;
@@ -742,10 +812,13 @@ section.song > div.finalVerse > div:nth-child(2) > p  >span:nth-child(3)
 
 
 /* para 3 */
+section.song > div.finalVerse > div:nth-child(3) 
+{
+    background-color: #e0eaf7;
+}
 section.song > div.finalVerse > div:nth-child(3) > p
 {
     font-family: 'Open Sans', sans-serif;
-    background-color: #e0eaf7;
     font-size: 25px;
     display: flex;
     line-height: .9;
@@ -779,10 +852,13 @@ section.song > div.finalVerse > div:nth-child(3) > p  >span:nth-child(3)
 
 
 /* para 4 */
+section.song > div.finalVerse > div:nth-child(4) 
+{
+    background-color: #edecec;
+}
 section.song > div.finalVerse > div:nth-child(4) > p
 {
     font-family: 'Open Sans', sans-serif;
-    background-color: #edecec;
     font-size: 25px;
     display: flex;
     line-height: .9;
