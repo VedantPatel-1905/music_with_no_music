@@ -86,7 +86,7 @@ section.song > div.firstVerse > div > p
 /* para 1 */
 section.song > div.firstVerse > div:nth-child(1)
 {
-    background-color: #222222;   
+    background-color: #222222; 
 }
 section.song > div.firstVerse > div:nth-child(1) > p
 {
@@ -96,10 +96,20 @@ section.song > div.firstVerse > div:nth-child(1) > p
 section.song > div.firstVerse > div:nth-child(1) > p  >span
 {
     color: #f4f4f4;
-    text-shadow: 0 0 6px rgb(129, 16, 129);
-    font-size: 2em;
+    background: linear-gradient(180deg,#6c526d,#811081);  
+    /* text-shadow: 0 0 6px #811081; */
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 1.8em;
     margin: 0 0 0 5em;
+    transition: all 0.5s;
 }
+section.song > div.firstVerse > div:nth-child(1):hover > p  >span
+{
+    font-size: 2.1em;
+}
+
+
 
 /* para 2 */
 section.song > div.firstVerse > div:nth-child(2)
@@ -110,14 +120,20 @@ section.song > div.firstVerse > div:nth-child(2)
 section.song > div.firstVerse > div:nth-child(2) > p
 {
     font-family: 'Playfair Display', serif;
-    color: rgb(250, 73, 103);
+    color: #fa4967;
     letter-spacing: 2px;
 }
 section.song > div.firstVerse > div:nth-child(2) > p  >span
 {
-    /* text-shadow: 4px 4px 0 rgb(129, 16, 103); */
     font-size: 30px;
     margin: 0 0 0 1em;
+    transition: all 0.5s;
+}
+section.song > div.firstVerse > div:nth-child(2):hover > p  >span
+{
+    font-size: 1.6em;
+    color: #f43b59;
+    text-shadow: 2px 1px 1px rgb(129, 16, 103);
 }
 
 /* para 3 */
@@ -132,6 +148,11 @@ section.song > div.firstVerse > div:nth-child(3) > p
     letter-spacing: 1px;
     text-shadow: 2px 1px rgba(0, 0, 0,0.2);
     
+}
+section.song > div.firstVerse > div:nth-child(3) > p  >span
+{
+    transition: all 0.4s;
+
 }
 section.song > div.firstVerse > div:nth-child(3) > p  >span:nth-child(1)
 {
@@ -155,6 +176,15 @@ section.song > div.firstVerse > div:nth-child(3) > p  >span:nth-child(3)
     font-size: 30px;
     margin: 0 0 0 1em;
 }
+section.song > div.firstVerse > div:nth-child(3):hover > p  >span:nth-child(3)
+{
+    font-size: 1.4em;
+    text-shadow: 2px 1px 1px rgb(129, 16, 103);
+}
+section.song > div.firstVerse > div:nth-child(3):hover > p  >span:nth-child(1)
+{
+    font-size: .8em;
+}
 
 /* para 4 */
 section.song > div.firstVerse > div:nth-child(4)
@@ -169,6 +199,12 @@ section.song > div.firstVerse > div:nth-child(4) > p
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
+    transition: all 0.4s;
+
+}
+section.song > div.firstVerse > div:nth-child(4):hover > p 
+{
+    word-spacing: 10px;
 }
 
 /* para 5 */
@@ -182,9 +218,13 @@ section.song > div.firstVerse > div:nth-child(5) > p
     font-family: 'Quicksand', sans-serif;
     line-height: 1.2;
 }
+section.song > div.firstVerse > div:nth-child(5) > p  span
+{
+    transition: all 0.6s;
+}
 section.song > div.firstVerse > div:nth-child(5) > p  >span:nth-child(1)
 {
-    background-color: rgb(234, 193, 207);
+    background-color: #eac1cf;
     font-size: 30px;
     margin: 0 0 0 1em;
     color: #cf6679;
@@ -193,7 +233,6 @@ section.song > div.firstVerse > div:nth-child(5) > p  >span:nth-child(2)
 {
     color: #008f7a;
     background-color: #e0f2f1;
-
     font-size: 40px;
     margin: 0 0 0 0em;
     font-weight: bold;
@@ -215,6 +254,20 @@ section.song > div.firstVerse > div:nth-child(5) > p  >span:nth-child(3)
     letter-spacing: 2px;
 }
 
+section.song > div.firstVerse > div:nth-child(5):hover > p  >span:nth-child(1)
+{
+    background-color: #cf6679;
+    color: #eac1cf;
+}
+section.song > div.firstVerse > div:nth-child(5):hover > p  >span:nth-child(2) > span
+{
+    font-size: 20px;
+}
+section.song > div.firstVerse > div:nth-child(5):hover > p  >span:nth-child(3)
+{
+    letter-spacing: 8px;
+}
+
 /* para 6 */
 section.song > div.firstVerse > div:nth-child(6)
 {
@@ -227,6 +280,10 @@ section.song > div.firstVerse > div:nth-child(6) > p
     font-size: 25px;
     font-weight: 500;
     letter-spacing: 1px;
+}
+section.song > div.firstVerse > div:nth-child(6) > p  span
+{
+    transition: all 0.5s;
 }
 section.song > div.firstVerse > div:nth-child(6) > p  >span:nth-child(1)
 {
@@ -257,6 +314,15 @@ section.song > div.firstVerse > div:nth-child(6) > p  >span:nth-child(3)
     margin: 0 0 0 2em;
     letter-spacing: 2px;
 }
+section.song > div.firstVerse > div:nth-child(6):hover > p  >span:nth-child(3)
+{
+    color: #ffa999;
+}
+section.song > div.firstVerse > div:nth-child(6):hover > p  >span:nth-child(1),
+section.song > div.firstVerse > div:nth-child(6):hover > p  >span:nth-child(2)
+{
+    color: #ffecc5;
+}
 
 /* para 7 */
 section.song > div.firstVerse > div:nth-child(7)
@@ -270,13 +336,23 @@ section.song > div.firstVerse > div:nth-child(7) > p
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
+    transition: all 0.6s;
     font-size: 1.2em;
 }
 section.song > div.firstVerse > div:nth-child(7) > p > span
 {
     color: #c4dce4;
-    text-shadow: -4px 3px 3px rgb(2, 28, 8);
+    text-shadow: -4px 3px 3px #021c08;
     margin: 0 0 0 12em;
+    transition: all 0.6s;
+}
+section.song > div.firstVerse > div:nth-child(7):hover > p > span
+{
+    text-shadow: 6px 3px 3px #021c08;
+}
+section.song > div.firstVerse > div:nth-child(7):hover > p 
+{
+    text-shadow: -1px -1px 5px #c4dce4;
 }
 
 /* para 8 */
@@ -290,14 +366,19 @@ section.song > div.firstVerse > div:nth-child(8) > p
     letter-spacing: 1px;
     line-height: 1;
 }
+section.song > div.firstVerse > div:nth-child(8) > p  >span
+{
+}
 section.song > div.firstVerse > div:nth-child(8) > p  >span:nth-child(1)
 {
+    transition: all 1s;
     font-size: 30px;
     color: #5ebcef;
     margin: 0 0 0 1em;
 }
 section.song > div.firstVerse > div:nth-child(8) > p  >span:nth-child(2)
 {
+    transition: all 0.6s;
     color: #3f97c7;
     font-size: 40px;
     margin: 0 0 0 1.5em;
@@ -312,9 +393,22 @@ section.song > div.firstVerse > div:nth-child(8) > p  >span:nth-child(2) >span
 
 section.song > div.firstVerse > div:nth-child(8) > p  >span:nth-child(3)
 {
+    transition: all 0.4s;
     color: #1d5383;
     font-size: 40px;
     letter-spacing: 2px;
+}
+section.song > div.firstVerse > div:nth-child(8):hover > p  >span:nth-child(1)
+{
+    transform: scale(1,1.5);
+}
+section.song > div.firstVerse > div:nth-child(8):hover > p  >span:nth-child(2)
+{
+    word-spacing: 10px;
+}
+section.song > div.firstVerse > div:nth-child(8):hover > p  >span:nth-child(3)
+{
+    transform: rotate(-3deg);
 }
 
 /* css for the second verser */
