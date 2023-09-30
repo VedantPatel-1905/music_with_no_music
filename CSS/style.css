@@ -366,9 +366,6 @@ section.song > div.firstVerse > div:nth-child(8) > p
     letter-spacing: 1px;
     line-height: 1;
 }
-section.song > div.firstVerse > div:nth-child(8) > p  >span
-{
-}
 section.song > div.firstVerse > div:nth-child(8) > p  >span:nth-child(1)
 {
     transition: all 1s;
@@ -553,6 +550,10 @@ section.song > div.secondVerseTwo >div:nth-child(3)
 
 /* css for third verser */
 /* para 1 */
+section.song > div.thirdVerse > div > p  span
+{
+    transition: all .5s;
+}
 section.song > div.thirdVerse > div:nth-child(1) 
 {
     background-color: #f2e9df;
@@ -570,9 +571,13 @@ section.song > div.thirdVerse > div:nth-child(1) > p
 }
 section.song > div.thirdVerse > div:nth-child(1) > p  >span
 {
-    font-size: 40px;
+    font-size: 1.2em;
     font-weight: 700;
     text-shadow: 1px 0 3px rgb(52 58 53);
+}
+section.song > div.thirdVerse > div:nth-child(1):hover > p  >span
+{
+    font-size: 1.5em;
 }
 
 /* para 2 */
@@ -612,6 +617,14 @@ section.song > div.thirdVerse > div:nth-child(2) > p  >span:nth-child(3)
     font-size: 40px;
     font-weight: 700;
     margin: 0 0 0 .5em;
+}
+section.song > div.thirdVerse > div:nth-child(2):hover > p  >span:nth-child(2) > span
+{
+    margin: 0 0 0 10px;
+}
+section.song > div.thirdVerse > div:nth-child(2):hover > p  >span:nth-child(3) 
+{
+    transform: rotate(1deg);
 }
 
 /* para 3 */
@@ -662,6 +675,18 @@ section.song > div.thirdVerse > div:nth-child(3) > p  >span:nth-child(3) >span
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
+section.song > div.thirdVerse > div:nth-child(3):hover > p  >span:nth-child(1)
+{
+    letter-spacing: 5px;
+}
+section.song > div.thirdVerse > div:nth-child(3):hover > p  >span:nth-child(2)
+{
+    color: #357fc0;
+}
+section.song > div.thirdVerse > div:nth-child(3):hover > p  >span:nth-child(3) >span
+{
+    font-size: 2em;
+}
 
 /* para 4 */
 section.song > div.thirdVerse > div:nth-child(4) 
@@ -695,6 +720,11 @@ section.song > div.thirdVerse > div:nth-child(4) > p  >span > span
 {
     font-family: 'Indie Flower', cursive;
     font-weight: 700;
+}
+section.song > div.thirdVerse > div:nth-child(4):hover > p  >span > span
+{
+    color: rgb(165, 95, 42);
+    margin: 0 10px;
 }
 
 /* para 5 */
@@ -730,10 +760,22 @@ section.song > div.thirdVerse > div:nth-child(5) > p  >span:nth-child(3)
     background:linear-gradient(180deg,#8ce0cf,#00796b) ;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-        font-size: 40px;
+    font-size: 40px;
     font-weight: 600;
     line-height: 1.3;
     letter-spacing: 3px;
+}
+section.song > div.thirdVerse > div:nth-child(5):hover > p  >span:nth-child(1)
+{
+    font-weight: 500;
+}
+section.song > div.thirdVerse > div:nth-child(5):hover > p  >span:nth-child(2)
+{
+    font-weight: 300;
+}
+section.song > div.thirdVerse > div:nth-child(5):hover > p  >span:nth-child(3)
+{
+    letter-spacing: 2px;
 }
 /* para 6 */
 section.song > div.thirdVerse > div:nth-child(6) 
@@ -754,7 +796,7 @@ section.song > div.thirdVerse > div:nth-child(6) > p  >span:nth-child(1)
     font-family: 'Rubik', sans-serif;
     color: #689F81;
     text-shadow:  3px 2px 2px rgba(58 ,179 ,101 ,50%);
-
+    
     font-size: 25px;
     font-weight: 500;
     margin: 0 0 0 1em;
@@ -765,6 +807,14 @@ section.song > div.thirdVerse > div:nth-child(6) > p  >span:nth-child(2)
     word-spacing: 2px;
     font-size: 30px;
     font-weight: 300;
+}
+section.song > div.thirdVerse > div:nth-child(6):hover > p  >span:nth-child(1)
+{
+    text-shadow: -3px 2px 2px rgba(58 ,179 ,101 ,50%);
+}
+section.song > div.thirdVerse > div:nth-child(6):hover > p  >span:nth-child(2)
+{
+    color: #058f48;
 }
 
 /* para 7 */
@@ -795,6 +845,11 @@ section.song > div.thirdVerse > div:nth-child(7) > p  >span:nth-child(2)
     margin: 0 0 0 1em;
     font-size: 30px;
 }
+section.song > div.thirdVerse > div:nth-child(7):hover > p  >span:nth-child(2)
+{
+    text-transform: capitalize;
+    word-spacing: 10px;
+}
 
 /* para 8 */
 section.song > div.thirdVerse > div:nth-child(8) 
@@ -811,7 +866,7 @@ section.song > div.thirdVerse > div:nth-child(8) > p
 section.song > div.thirdVerse > div:nth-child(8) > p  
 {
     
-    color: #ff7aa5;
+    color: #f76291;
     font-size: 25px;
     font-weight: 300;
 }
@@ -823,6 +878,10 @@ section.song > div.thirdVerse > div:nth-child(8) > p  >span
     word-spacing: 2px;
     font-size: 30px;
     font-weight: 500;
+}
+section.song > div.thirdVerse > div:nth-child(8):hover > p  >span
+{
+    font-size: 1.5em;
 }
 
 /* css for forth verse */
