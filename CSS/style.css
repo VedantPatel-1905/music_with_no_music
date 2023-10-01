@@ -418,6 +418,10 @@ section.song > div.secondVerse
     justify-content: center;
 }
 
+section.song > div.secondVerse >div > p span
+{
+    transition: all .6s;
+}
 section.song > div.secondVerse >div
 {
     padding: 10px 0;    
@@ -446,6 +450,18 @@ section.song > div.secondVerse > div:nth-child(1) > p > span:nth-child(3)
     font-size: 23px;
     margin: 0 0 0 21px;
     font-weight: 300;
+}
+section.song > div.secondVerse > div:nth-child(1):hover> p > span:nth-child(1)
+{
+    font-size: 1.1em;
+}
+section.song > div.secondVerse > div:nth-child(1):hover> p > span:nth-child(2)
+{
+    word-spacing: 20px;
+}
+section.song > div.secondVerse > div:nth-child(1):hover> p > span:nth-child(3) > span
+{
+    font-size: 1.5em;
 }
 /* para 2 */
 section.song > div.secondVerse >div:nth-child(2) > p 
@@ -480,6 +496,15 @@ section.song > div.secondVerse >div:nth-child(2) > p > span:nth-child(4)
     margin: 0 0 0 21px;
 }
 
+section.song > div.secondVerse > div:nth-child(2):hover> p > span:nth-child(2)
+{
+    font-size: 2.2em;
+}
+
+section.song > div.secondVerse > div:nth-child(2):hover> p > span:nth-child(4) 
+{
+    font-size: 2.2em;
+}
 /* para 3 */
 section.song > div.secondVerse >div:nth-child(3) > p 
 {
@@ -522,6 +547,17 @@ section.song > div.secondVerse >div:nth-child(3) > p > span:nth-child(5)
     font-weight: 600;
     font-size: 35px;
     margin: 0 0 0 11px;
+}
+
+section.song > div.secondVerse > div:nth-child(3):hover> p > span:nth-child(2)
+{
+    word-spacing: 10px;
+    color: #00796b;
+}
+
+section.song > div.secondVerse > div:nth-child(3):hover> p > span:nth-child(5) 
+{
+    font-size: 1em;
 }
 
 /* css for verse 3 */
